@@ -319,7 +319,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -340,7 +340,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -591,7 +591,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -612,7 +612,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -863,7 +863,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -884,7 +884,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1135,7 +1135,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -1156,7 +1156,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1419,7 +1419,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -1440,7 +1440,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1681,7 +1681,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -1702,7 +1702,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1943,7 +1943,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -1964,7 +1964,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -2205,7 +2205,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -2226,7 +2226,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -2467,7 +2467,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -2488,7 +2488,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -2729,7 +2729,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -2750,7 +2750,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -2991,7 +2991,7 @@ class TemplatesApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Query::build($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build$formParams);
             }
         }
 
@@ -3012,7 +3012,7 @@ class TemplatesApi
             $headers
         );
 
-        $query = \GuzzleHttp\Query::build($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build$queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
